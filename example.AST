@@ -1,0 +1,89 @@
+!Testing this single line comment
+
+!void func
+launchfunction blackhole House{}
+[
+    !int var dec
+    radius Counter _ 5 ...
+    
+    !char var dec NEED TO GET THIS TO WORK
+    !frag Letter _ ;A; ...
+    
+    !string var dec
+    message Sentence _ ::TESTING PLEASE WORK:: ...
+    
+    !bool var dec
+    signal SystemReady _ ping ...
+    signal SignalStrength _ scramble ...
+    
+    !for loop
+    orbit {radius Index _ 0... Index - 6... Index@@}
+    [
+        mass Earth _ 20 ...
+    ]
+    ///Checking to see
+    if multi line
+    comments work\\\
+]
+
+!float func
+launchfunction mass Room{}
+[
+    !float var dec
+    mass Hall _ 5 ...
+    mass Bedroom _ 3 ...
+    
+    !mod
+    Hall * Bedroom ...
+    
+    !division
+    Hall % Bedroom ...
+    
+    !add
+    mass Kitchen _ Hall @ Bedroom ...
+    
+    !return statement
+    reenter Hall ...
+]
+
+!main function, where execution begins
+radius Controlroom{}
+[
+    radius Counter _ 0 ...
+    
+    !while loop
+    galaxy {Counter -_ 3 ++ Counter - 3}
+    [
+        !increment
+        Counter @@ ...
+    ]
+    
+    mass Moon _ 5 ...
+
+    !do while loop
+    activate
+    [
+        radius Test _ 3 ...
+        signal SignalStrength _ ping ...
+    ] ignite {SignalStrength __ scramble} ...
+    
+    !if, else if, and else
+    probe {Counter |_ 5 ? Counter | 5}
+    [
+        mass Earth _ 20 ...
+        
+        !mult
+        Earth # Moon ...
+    ]
+    investigate {Counter __ 5 ++ ~SignalStrength}
+    [
+        !subtraction
+        Moon ^ Earth ...
+    ]
+    fallback
+    [
+        !decrement
+        Moon^^ ...
+    ]
+    reenter 0 ...
+]
