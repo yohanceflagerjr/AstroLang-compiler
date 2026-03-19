@@ -1,6 +1,6 @@
 # AstroLang — A Custom Space-Themed Programming Language
 
-A project I worked on in college implementing a compiler and stack-based virtual machine for a custom programming language with space-themed syntax. Built in C++.
+A project implementing a compiler and stack-based virtual machine for a custom programming language with space-themed syntax. Built in C++.
 
 > **Status:** Partially complete(project was cut short due to time constraints) — core features work but some functionality is unfinished. See [What Works](#what-works) below.
 
